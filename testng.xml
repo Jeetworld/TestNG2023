@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	 <listeners>
+        <listener class-name="Resource.TestListener"/>
+        <listener class-name="Resource.AnnotationTransformer"/>
+    </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+<!--      <class name="Practise.GoogleAutomation"/>-->
+      <class name="Paralleltesting.ClassOne"/>
+<!--      <class name="APITC.FirstAPI"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

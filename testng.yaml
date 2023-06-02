@@ -1,0 +1,10 @@
+name: Suite
+configFailurePolicy: skip
+listeners:
+  - Resource.TestListener
+  - Resource.AnnotationTransformer
+tests:
+  - name: Test
+  classes:
+    - Paralleltesting.ClassOne
+

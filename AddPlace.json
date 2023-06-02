@@ -1,0 +1,35 @@
+{
+ 
+  "movie":"Sing",
+ 
+  "location": {
+    "lat": -38.383494,
+    "lng": 33.427362,
+    "cityy" : { 
+    	"value1": "abc",
+    	"value2": "xyz"
+    }
+    
+  },
+  "accuracy": 50,
+  "name": "Frontline house",
+  "phone_number": "(+91) 983 893 3937",
+  "address": "29, side layout, cohen 09",
+  "types": [
+  { 
+    "first": "shoe park",
+    "second": "shop"
+    },
+    { 
+    	"first": "book",
+    	"second": "pencil"
+    },
+    { 
+    	"first": "rubber",
+    	"second": "geometry Box"
+    }
+  ],
+  "website": "http://google.com",
+  "language": "French-IN"
+
+}
