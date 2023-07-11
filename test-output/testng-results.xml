@@ -1,17 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="7" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-23T18:36:33 IST" name="Default suite" finished-at="2023-05-23T18:36:35 IST" duration-ms="1221">
+  <suite started-at="2023-06-15T16:06:56 IST" name="Suite" finished-at="2023-06-15T16:07:07 IST" duration-ms="11014">
     <groups>
     </groups>
-    <test started-at="2023-05-23T18:36:33 IST" name="Default test" finished-at="2023-05-23T18:36:35 IST" duration-ms="1221">
-      <class name="APITC.TraverseTheJSON">
-        <test-method signature="traverseTheJSON()[pri:0, instance:APITC.TraverseTheJSON@8f4ea7c]" started-at="2023-05-23T18:36:33 IST" name="traverseTheJSON" finished-at="2023-05-23T18:36:35 IST" duration-ms="1186" status="PASS">
+    <test started-at="2023-06-15T16:06:56 IST" name="Test" finished-at="2023-06-15T16:07:07 IST" duration-ms="11014">
+      <class name="com.learning.selenium.TestCaseOne">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.learning.selenium.TestCaseOne@1623134f]" started-at="2023-06-15T16:06:56 IST" name="startReport" finished-at="2023-06-15T16:06:58 IST" duration-ms="2218" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- traverseTheJSON -->
-      </class> <!-- APITC.TraverseTheJSON -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- startReport -->
+        <test-method signature="methodOne()[pri:0, instance:com.learning.selenium.TestCaseOne@1623134f]" started-at="2023-06-15T16:06:58 IST" name="methodOne" finished-at="2023-06-15T16:07:01 IST" duration-ms="2454" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Sign Up | LinkedIn]> but was:<[ABC]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[Sign Up | LinkedIn]> but was:<[ABC]>
+at junit.framework.Assert.assertEquals(Assert.java:100)
+at junit.framework.Assert.assertEquals(Assert.java:107)
+at com.learning.selenium.TestCaseOne.methodOne(TestCaseOne.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodOne -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.learning.selenium.TestCaseOne@1623134f]" started-at="2023-06-15T16:07:01 IST" name="getResult" finished-at="2023-06-15T16:07:01 IST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=methodOne status=FAILURE method=TestCaseOne.methodOne()[pri:0, instance:com.learning.selenium.TestCaseOne@1623134f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="methodTwo()[pri:0, instance:com.learning.selenium.TestCaseOne@1623134f]" started-at="2023-06-15T16:07:01 IST" name="methodTwo" finished-at="2023-06-15T16:07:05 IST" duration-ms="3922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTwo -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.learning.selenium.TestCaseOne@1623134f]" started-at="2023-06-15T16:07:05 IST" name="getResult" finished-at="2023-06-15T16:07:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=methodTwo status=SUCCESS method=TestCaseOne.methodTwo()[pri:0, instance:com.learning.selenium.TestCaseOne@1623134f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning.selenium.TestCaseOne@1623134f]" started-at="2023-06-15T16:07:06 IST" name="tearDown" finished-at="2023-06-15T16:07:07 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learning.selenium.TestCaseOne -->
+      <class name="com.learning.selenium.TestCaseTwo">
+        <test-method signature="homepage()[pri:0, instance:com.learning.selenium.TestCaseTwo@5b04476e]" started-at="2023-06-15T16:07:05 IST" name="homepage" finished-at="2023-06-15T16:07:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.learning.selenium.TestCaseTwo@5b04476e]" started-at="2023-06-15T16:07:05 IST" name="getResult" finished-at="2023-06-15T16:07:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homepage status=SUCCESS method=TestCaseTwo.homepage()[pri:0, instance:com.learning.selenium.TestCaseTwo@5b04476e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="login()[pri:0, instance:com.learning.selenium.TestCaseTwo@5b04476e]" started-at="2023-06-15T16:07:05 IST" name="login" finished-at="2023-06-15T16:07:06 IST" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.learning.selenium.TestCaseTwo@5b04476e]" started-at="2023-06-15T16:07:06 IST" name="getResult" finished-at="2023-06-15T16:07:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TestCaseTwo.login()[pri:0, instance:com.learning.selenium.TestCaseTwo@5b04476e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="profilePage()[pri:0, instance:com.learning.selenium.TestCaseTwo@5b04476e]" started-at="2023-06-15T16:07:06 IST" name="profilePage" finished-at="2023-06-15T16:07:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profilePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.learning.selenium.TestCaseTwo@5b04476e]" started-at="2023-06-15T16:07:06 IST" name="getResult" finished-at="2023-06-15T16:07:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=profilePage status=SUCCESS method=TestCaseTwo.profilePage()[pri:0, instance:com.learning.selenium.TestCaseTwo@5b04476e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.learning.selenium.TestCaseTwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

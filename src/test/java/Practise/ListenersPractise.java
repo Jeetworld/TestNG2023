@@ -8,11 +8,12 @@ import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import Base.BaseClass;
-import Resource.TestListener;
-@Listeners(TestListener.class)
+
+import Base.NewBase;
+
+//@Listeners(TestListener.class)
 //@Listeners(AnnotationTransformer.class)
-public class ListenersPractise extends BaseClass {
+public class ListenersPractise extends NewBase {
 	
 	@Test
 	public void methodOne() throws Exception {

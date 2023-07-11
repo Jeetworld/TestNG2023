@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="APITC.AddPlace">
+      <class name="com.learning.selenium.TestCaseOne">
         <methods>
-          <include name="addPlace"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="methodOne"/>
         </methods>
-      </class> <!-- APITC.AddPlace -->
+      </class> <!-- com.learning.selenium.TestCaseOne -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
