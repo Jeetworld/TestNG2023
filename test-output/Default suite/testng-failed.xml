@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.learning.selenium.TestCaseOne">
+      <class name="testcase.First_Class">
         <methods>
-          <include name="getResult"/>
-          <include name="tearDown"/>
-          <include name="startReport"/>
-          <include name="methodOne"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.learning.selenium.TestCaseOne -->
+      </class> <!-- testcase.First_Class -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

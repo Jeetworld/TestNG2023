@@ -32,7 +32,7 @@ public class NewBase {
    
 	
 //	protected static ThreadLocal<WebDriver> driver1 = new ThreadLocal<WebDriver>();
-//	
+//	hi
 //	public static  void setDriver() {
 ////		WebDriverManager.chromedriver().setup();
 //		driver1.set(new ChromeDriver());
